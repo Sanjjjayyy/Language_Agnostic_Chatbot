@@ -1,0 +1,16 @@
+notebooks/
+# Environment variables
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environment folders
+/venv
+/.venv
+/env
+
+# IDE and editor folders
+.vscode/
+.idea/

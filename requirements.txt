@@ -1,0 +1,32 @@
+# requirements.txt
+
+# Web Framework
+fastapi
+uvicorn[standard]
+
+# Frontend UI
+streamlit
+
+# Core AI & LangChain
+langchain
+langchain-google-genai
+langchain-community
+langchain-huggingface
+
+# Embedding Model & Vector Database
+sentence-transformers
+faiss-cpu # Use faiss-gpu if you have a compatible NVIDIA GPU
+
+# Data Processing & PDF Extraction
+pypdf2
+pdfplumber
+python-docx
+pdf2image
+pytesseract
+Pillow
+
+# Utilities
+python-dotenv
+requests
+numpy
+pydantic
